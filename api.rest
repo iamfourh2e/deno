@@ -1,7 +1,8 @@
-POST http://localhost:3004/api/v1/add_product HTTP/1.1
+POST http://localhost:3004/register HTTP/1.1
 content-type: application/json
 
 {
     "name": "U beer",
     "price":22
+
 }
